@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* centers in the middle*/
+.fixed-width {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#bold {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.top-bar {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    color: black;
+}
+
+.top-bar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar ul li {
+    float: left;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-right: 1px solid #b4b4b4;
+    padding: 10px 15px 9.4px 15px;
+}
+
+.top-bar ul li:hover {
+    cursor: pointer;
+    padding-bottom: 5.4px;
+    border-bottom: 4px solid red;
+    transition: 0.1s;
+    color: white;
+    background-color: black;
+}
+
+.news-bar {
+    width: 100%;
+    color: white;
+    height: 60px;
+    background-color: #BB1919;
+}
+
+.news-bar p {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    position: relative;
+    right: 3.5px;
+}
+
+.news-bar p:hover {
+    cursor: pointer;
+}
+
+.category-bar {
+    width: 100%;
+    color: white;
+    height: 30px;
+    background-color: #A91717
+}
+
+.category-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.category-bar ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    border-right: 1px solid #BB4545;
+    padding: 6.8px 6.8px 6.2px 6.8px;
+    position: relative;
+    right: 7.7px;
+}
+
+.location-bar {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 100%;
+}
+
+.location-bar ul {
+    margin: 0;
+    padding: 6px 0 0 0;
+    list-style: none;
+}
+
+.location-bar ul li {
+    float: left;
+    padding: 0px 12px 0px 12px;
+    font-size: 0.8em;
+    border-right: 1px solid #B4B4B4;
+    position: relative;
+    right: 13.2px;
+}
+
+.location-bar ul li:hover {
+    cursor: pointer;
+    border-bottom: 4px solid red;
+    transition: 0.1s;
+}
+
+.another-height {
+    position: relative;
+    top: 8px;
+}
+
+.content {
+    background-color: white;
+    color: #000000;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    padding-top: 6px;
+    border-right: 1px solid #B4B4B4;
+    padding-right: 10px;
+    padding-bottom: 1.6px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#sign-in {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 50px 7.4px 15px;
+    float: left;
+    border-right: 1px solid #B4B4B4;
+}
+
+#sign-in:hover {
+    cursor: pointer;
+}
+
+#search-box {
+    width: 180px;
+    float: left;
+    padding: 8px 10px 10px 10px;
+}
+
+#search-box input {
+    background-image: url('https://static.bbci.co.uk/frameworks/barlesque/2.88.1/orb/4/img/orb-search-dark.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 24px;
+    padding-bottom: 4px;
+}
+
+.content p {
+    width: 215px;
+}
+
+.content img {
+    float: right;
+    position: relative;
+    right: 330px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content-links {
+    margin-top: 60px;
+    width: 250px;
+    font-size: 0.95em;
+    line-height: 1.7em;
+}
+
+.content h1 {
+    color: gray;
+} 
+
+.content h1:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #1167A8;
+}
+
+.watch-listen {
+    float: right;
+    position: relative;
+    bottom: 342px;
+    right: 240px;
+    border-left: 1px solid #B4B4B4;
+    padding: 0 0 0 25px;
+}
+
+.watch-listen h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.watch-listen img {
+    position: relative;
+    right: 5px;
+}
